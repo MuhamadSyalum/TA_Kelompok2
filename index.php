@@ -52,14 +52,14 @@
     <div class="content">
         <h3>halo <?php echo $_SESSION['a_globall']->nama ?> SELAMAT BERBELANJA</h3>
         <p>Awali harimu dengan berbelanja di toko kami</p>
-        <a href="#menu" class="btn">selamat datang di MulaysStore</a>
+        <a href="#menu" class="btn">Selamat datang di Daifukumoy</a>
     </div>
 
 </section>
 	<section class="about" id="about">
 		<div class="container">
         <h1 class="heading">
-        <span>t</span>
+        <span>T</span>
         <span>e</span>
         <span>n</span>
         <span>t</span>
@@ -67,19 +67,18 @@
         <span>n</span>
         <span>g</span>
         <br>
-        <span>k</span>
+        <span>K</span>
         <span>a</span>
         <span>m</span>
         <span>i</span>
     </h1>
-			<p>Web ini dibuat oleh Muhamad Syalum kelas TIFA1 </p>
-			<p>"Jika ingin sukses jangan takut gagal dan pantang menyerah"</p>
+			<p> Daifukumoy adalah toko mochi Korea yang menawarkan berbagai macam mochi lezat dengan rasa unik dan menarik. Mochi Daifukumoy terbuat dari bahan-bahan berkualitas tinggi dan dibuat dengan penuh kasih sayang. Rasakan kelembutan dan sensasi rasa yang luar biasa dari mochi Daifukumoy. Tersedia dalam berbagai macam rasa, Daifukumoy adalah pilihan tepat untuk para pecinta rasa manis dan ingin mencoba sesuatu yang baru. </p>
 		</div>
 	</section>
 		<section class="kategori" id="kategori">
 		<div class="container">
         <h1 class="heading">
-        <span>k</span>
+        <span>K</span>
         <span>a</span>
         <span>t</span>
         <span>e</span>
@@ -111,14 +110,14 @@
 	</section>
 	<section class="menu" id="menu">
     <h1 class="heading">
-        <span>p</span>
+        <span>P</span>
         <span>r</span>
         <span>o</span>
         <span>d</span>
         <span>u</span>
         <span>k</span>
         <br>
-        <span>k</span>
+        <span>K</span>
         <span>a</span>
         <span>m</span>
         <span>i</span>
@@ -145,7 +144,7 @@
        
 <section class="review" id="review">
     <h1 class="heading">
-        <span>r</span>
+        <span>R</span>
         <span>e</span>
         <span>v</span>
         <span>i</span>
@@ -202,7 +201,7 @@
         <a href="logout2.php">logout</a>
     </div>
 
-    <div class="credit">created by <span>Muhamad Syalum</span></span> | all rights reserved</div>
+    <div class="credit">created by <span>Kelompok2</span></span> | all rights reserved</div>
 
 </section>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

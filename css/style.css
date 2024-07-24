@@ -39,8 +39,8 @@ html::-webkit-scrollbar-thumb{
     border-radius: 5rem;
 }
 .heading span{
-  font-size: 3.5rem;
-  background:rgb(255, 165, 0);
+  font-size: 2.5rem;
+  background:rgba(255, 103, 250, 0.758);
   color:var(--bg);
   border-radius: .5rem;
   padding:.2rem 1rem;
@@ -81,11 +81,11 @@ section{
 }
 
 .header{
-    background: #000;
+    background: #ae1d85c5;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:1.5rem 7%;
+    padding:1rem 5%;
     border-bottom: var(--border);
     position: fixed;
     top:0; left: 0; right: 0;
@@ -93,17 +93,17 @@ section{
 }
 
 .header .logo img{
-    height: 6rem;
+    height: 5rem;
 }
 
 .header .navbar a{
     margin:0 1rem;
-    font-size: 2.6rem;
+    font-size: 1.8rem;
     color:#fff;
 }
 
 .header .navbar a:hover{
-    color:#0000CD;
+    color:#ae1d85c5;
     border-top: .2rem solid var(--main-color);
  padding-top: .5rem;
     border-bottom: .2rem solid var(--main-color);
@@ -114,12 +114,12 @@ section{
 .header .icons div{
     color:#fff;
     cursor: pointer;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin-left: 2rem;
 }
 
 .header .icons div:hover{
-    color:#0000CD;
+    color: #ae1d85c5;;
 }
 
 #menu-btn{
@@ -129,7 +129,7 @@ section{
 .header .search-form{
     position: absolute;
     top:115%; right: 7%;
-    background: #000;
+    background: #ffffff;
     width: 50rem;
     height: 5rem;
     display: flex;
@@ -146,7 +146,7 @@ section{
     height: 100%;
     width: 100%;
     font-size: 1.6rem;
-    color:#000;
+    color:#ffffff;
     padding:1rem;
     text-transform: none;
 }
@@ -155,7 +155,7 @@ section{
     cursor: pointer;
     font-size: 2.2rem;
     margin-right: 1.5rem;
-    color:#0000CD;
+    color:#cd009a;
 }
 
 .header .search-form label:hover{
@@ -163,10 +163,10 @@ section{
 }
 .home{
 
-    min-height:600px ;
+    min-height:700px ;
     display: flex;
     align-items: center;
-    background:url(banner.jpg) no-repeat;
+    background:url(bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -178,14 +178,14 @@ section{
 .home .content h3{
     font-size: 3rem;
     text-transform: uppercase;
-    color:#000;
+    color:#000000cf;
 }
 
 .home .content p{
     font-size: 2rem;
     line-height: 1.8;
     padding:1rem 0;
-    color:#000;
+    color:#000000cf;
 }
 
 
@@ -209,7 +209,7 @@ section{
   padding:25px 0;
 }
 .box {
-  background-color: #fff;
+  background-color: #ffffffc7;
   border:1px solid #ccc;
   padding:15px;
   box-sizing: border-box;
@@ -224,7 +224,7 @@ section{
 
 .about,
 .service {
-    background-color: #000;
+    background-color: #b22c87ca;
     border: var(--border);
     border-color: #ccc;
 	padding-bottom: 100px;
@@ -243,7 +243,7 @@ section{
 	line-height: 25px;
 }
 .kategori {
-	background-color: #000;
+	background-color: #b22c87ca;
     border: var(--border);
     border-color: #ccc;
 }
@@ -295,7 +295,7 @@ section{
 	margin:20px 0;
 }
 .menu{
-    background-color: #000;
+    background-color: #b22c87ca;
     border: var(--border);
     border-color: #ccc;
   }
@@ -323,13 +323,13 @@ section{
 
 }
 .menu .box-container .box h3{
-    color: #000;
+    color: #b22c87ca;
     font-size: 2rem;
     padding:1rem 0;
 }
 
 .menu .box-container .box .price{
-    color: #000;
+    color: #b22c87ca;
     font-size: 2.5rem;
     padding:.5rem 0;
 
@@ -341,7 +341,7 @@ section{
 }
 
 .menu .box-container .box:hover{
-    background:#000;
+    background:#b22c87ca;
     color: #0000CD;
 }
 
@@ -351,12 +351,12 @@ section{
     color:var(--black);
 }
 .pakaian{
-  background: #000;
+  background: #b22c87ca;
   -webkit-transition: background-color 1s linear 1s;
     transition: background-color 1s linear 1s;
 }
 .pakaian:hover {
-background-color: #6f2da8;
+background-color: #b22c87ca;
 }
 .pakaian .heading{
   color: #fff;
@@ -400,7 +400,7 @@ background-color: #6f2da8;
 
 .pakaian .box-container .box:hover .image img{
 border-color: salmon;
-  box-shadow: 0 6px 8px #000;
+  box-shadow: 0 6px 8px #b22c87ca;
   margin-top: 10px;
 }
 
@@ -433,7 +433,7 @@ border-color: salmon;
     font-size: 1.5rem;
 }
 .review{
-    background-color: #000;
+    background-color: #b22c87ca;
     border: var(--border);
     border-color: #ccc;
 }
@@ -471,7 +471,7 @@ border-color: salmon;
 
 
 .footer{
-    background-color: #000;
+    background-color: #b22c87ca;
     
     text-align: center;
     }
@@ -494,7 +494,7 @@ border-color: salmon;
     
     }
     .footer .share a:hover{
-        background:#0000CD;
+        background:#fba300;
         }
     .footer .links{
     display: flex;
@@ -513,7 +513,7 @@ border-color: salmon;
     }
     
     .footer .links a:hover{
-    background:#0000CD;
+    background:#fba300;
     }
     
     .footer .credit{
@@ -523,7 +523,7 @@ border-color: salmon;
     }
     
     .footer .credit span{
-    color:#0000CD;
+    color:#fba300;
     }
     table{ 
         width:100% ;
@@ -533,15 +533,15 @@ border-color: salmon;
         background-color: #6ea1cc;
         position: relative;
         margin: auto;
-        color: #0000ff;
+        color: #fba300;
     }
     table th{
-        color: #000;
+        color: #b22c87ca;
         border: 2px solid #000;
         padding: 25px 50px;
     }
     table td{
-        border: 2px solid #000;
+        border: 2px solid #b22c87ca;
         padding: 25px 50px;
     }
     table thead th{
