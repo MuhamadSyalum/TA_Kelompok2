@@ -1,10 +1,7 @@
 <?php   
 error_reporting(0);
 include("db.php");
-    session_start();
-    if($_SESSION['status_login_pembeli'] != true){
-        echo '<script>window.location="loginn.php"</script>';
-    }
+    
 ?>
 <!DOCTYPE html>
 <html lang="en">

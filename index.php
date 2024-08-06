@@ -1,8 +1,5 @@
 ﻿<?php include("db.php");  
-    session_start();
-    if($_SESSION['status_login_pembeli'] != true){
-        echo '<script>window.location="loginn.php"</script>';
-    }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -31,6 +28,7 @@
         <a href="#menu">produk</a>
         <a href="#review">review</a>
         <a href="#share">kontak</a>
+        <a href="loginn.php">Login</a>
         <a href="logout2.php">logout</a>
     </nav>
     <div class="icons">
@@ -50,7 +48,7 @@
     </header>
     <section class="home" id="home">
     <div class="content">
-        <h3>halo <?php echo $_SESSION['a_globall']->nama ?> SELAMAT BERBELANJA</h3>
+        <h3>halo SELAMAT BERBELANJA</h3>
         <p>Awali harimu dengan berbelanja di toko kami</p>
         <a href="#menu" class="btn">Selamat datang di Daifukumoy</a>
     </div>

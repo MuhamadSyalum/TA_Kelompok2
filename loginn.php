@@ -52,7 +52,7 @@
           $_SESSION['status_login_pembeli'] = true;
           $_SESSION['a_globall'] = $d;
           $_SESSION['idd'] = $d->id;
-          echo '<script>window.location="index.php"</script>';
+          echo '<script>window.location="./member/index.php"</script>';
         }else{
           echo '<script>alert("Username atau password Anda salah!")</script>';
         }
